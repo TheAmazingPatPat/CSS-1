@@ -1,3 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+h1 {
+	align-self: center;
+	border-style: solid;
+	border-color: #43b86a;/*green*/
+	border-width: 5px;
+	background: #012023;/*blue*/
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	width: 500px;
+}
