@@ -1,15 +1,52 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1 {
-	align-self: center;
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
+h1{
+	text-align: center;
 	border-style: solid;
 	border-color: #43b86a;/*green*/
 	border-width: 5px;
 	background: #012023;/*blue*/
-	text-align: center;
 	padding: 10px 10px 10px 10px;
 	color: white;
 	text-shadow: 5px 5px 5px black;
-	width: 500px;
+}
+nav{
+	background-color: aqua;
+	text-align: center;
+	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+#pikachu{
+	width: 300px;
+	height: 300px;
+	padding: 5px 10px 5 10px;
+
+}
+#wolf{
+	width: 300px;
+	height: 300px;
+	
+}
+#landscape{
+	width: 300px;
+	height: 300px;
+}
+section{
+	float: left;
+	height: 500px;
+}
+footer{
+	width: 100%;
+	clear: both;
 }
