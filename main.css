@@ -17,10 +17,13 @@ h1{
 	padding: 10px 10px 10px 10px;
 	color: white;
 	text-shadow: 5px 5px 5px black;
+	margin: 10px;
 }
 nav{
 	background-color: aqua;
 	text-align: center;
+	margin: 10px;
+	padding: 10px;
 	
 }
 img{
@@ -34,8 +37,8 @@ img{
 
 }
 #wolf{
-	width: 300px;
-	height: 300px;
+	width: 175px;
+	
 	
 }
 #landscape{
@@ -45,9 +48,27 @@ img{
 section{
 	float: left;
 	height: 300px;
+	margin: 10px;
+	padding: 5px;
+	border: medium;
+	border-style:groove;
 }
 footer{
 	width: 100%;
 	clear: both;
 	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	border: thick;
+	border-style: dashed;
+}
+p{
+	font-family: 'Anton', ;
+}
+aside{
+	margin: 5px;
+	padding: 5px;
+}
+.container{
+	background-color: antiquewhite;
 }
