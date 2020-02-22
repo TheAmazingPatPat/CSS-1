@@ -5,6 +5,20 @@
 <title>HTML 1</title>
 <link href="main.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+	  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 </head>
 
 <body>
@@ -43,8 +57,44 @@
 	
 	<aside><p>I just started using Cinema 4D a couple weeks ago so I'm no expert, but it's been fun.</p></aside>
 	
-	
+	<div id="accordion">
+  <h3>Facebook</h3>
+  <div>
+    <p>
+    My <a href="https://www.facebook.com/TheAmazingPatPat">Facebook</a> is just a weird place so don't bother if your not into games and anime.
+    </p>
+  </div>
+  <h3>Youtube</h3>
+  <div>
+    <p>
+    I haven't posted anything to my <a href="https://www.youtube.com/channel/UCzoajnhCrAHwCsjThuDaxEg">YouTube</a> since I started school. It's just a bunch of videos of me and my friends playing video games. Strong language, not for kids.
+    </p>
+  </div>
+  <h3>Twitter</h3>
+  <div>
+    <p>
+    I tend not to post to my <a href="https://twitter.com/amazingpatpat">Twitter</a> a lot and when I do it tends to be OG memes.
+    </p>
+     </div>
+  <h3>Twitch</h3>
+  <div>
+    <p>
+    I haven't streamed in a while on my <a href="https://www.twitch.tv/theamazingpatpat/following">Twitch</a> channel, but it's fun to do.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+	</div>
+
+	<div id="draggable" class="ui-widget-content">
+  <p>Drag me around
+	WEEEEEEEEE!</p>
+</div>
 	<footer><p>Thank you for coming to my TedTalk&#169;.</p></footer>
+	
 	</div>
 </body>
 </html>

@@ -72,3 +72,9 @@ aside{
 .container{
 	background-color: antiquewhite;
 }
+#accordion{
+	clear: both;
+	margin: 10px;
+	padding: 5px;
+	
+}
